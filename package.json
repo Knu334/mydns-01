@@ -1,0 +1,32 @@
+{
+  "name": "mydns-01",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knu334/mydns-01.git"
+  },
+  "author": "Knu334",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Knu334/mydns-01/issues"
+  },
+  "homepage": "https://github.com/Knu334/mydns-01#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.8.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@types/node": "^22.13.11",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.27.0"
+  }
+}
